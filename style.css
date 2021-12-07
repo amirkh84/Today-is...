@@ -1,0 +1,133 @@
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: cinema;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#moz {
+    color: #ff8c00;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: floralwhite;
+    padding: 15px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px #ff8c0098;
+    transition: 300ms;
+    margin: 10px;
+}
+#moz2 {
+    color: #ff8c00;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: floralwhite;
+    padding: 15px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px #ff8c0098;
+    transition: 300ms;
+    margin: 10px;
+}
+#moz3 {
+    width: 400px;
+    color: #ff8c00;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: floralwhite;
+    padding: 15px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 5px #ff8c0098;
+    transition: 300ms;
+    margin: 10px;
+}
+#moz:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #5c4b256c;
+}
+#moz2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #5c4b256c;
+}
+#moz3:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #5c4b256c;
+}
+#day {
+    color: #ff8c00;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#sha {
+    color: #ff8c00;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#ffh {
+    color: #000000;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-shadow: 0px 0px 5px #0000006c;
+}
+#ffm {
+    color: #000000;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-shadow: 0px 0px 5px #0000006c;
+}
+#ffs {
+    color: #000000;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-shadow: 0px 0px 5px #0000006c;
+}
+#ffg {
+    color: #000000;
+    font-weight: 600;
+    font-size: 50px;
+    background-color: transparent;
+    text-shadow: 0px 0px 5px #0000006c;
+}
+@font-face {
+    font-family: cinema;
+    src: url(Cinema\ Full.ttf);
+}
+@media  screen and (max-width: 390px){
+    body {
+        display: grid;
+    }
+    #moz , #day{
+        font-size: 40px;
+        text-align: center;
+    }
+    #moz2 , #sha{
+        font-size: 40px;
+        text-align: center;
+    }
+    #ffm , #ffh , #ffs{
+        font-size: 35px;
+        text-align: center;
+    }
+}
