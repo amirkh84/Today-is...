@@ -120,7 +120,7 @@ body {
 }
 @font-face {
     font-family: cinema;
-    src: url(assets/font/Cinema\ Full.ttf);
+    src: url(assets/font/CinemaFull.ttf);
 }
 @media  screen and (max-width: 390px){
     body {
